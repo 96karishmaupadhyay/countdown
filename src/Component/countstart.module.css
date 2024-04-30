@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(-290deg,rgb(198, 20, 252) 5% ,rgba(92, 216, 247, 0.904)) 100%; ;
+   
+    text-align: center;
+    color: aliceblue;
+    
+}
+h1,.spanTimer{
+    margin-top: 40px;
+}
+.container{
+    display: inline-flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.inputBox input{
+    height: 40px;
+    width: 200px;
+    border: 1px solid white;
+    padding: 10px;
+    background: transparent;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.timerBox{
+    display: flex;
+    height: 100px;
+    gap: 20px;
+  
+}
+
+.timerBox div{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 110px;
+    border-radius: 10px;
+    background:linear-gradient(-290deg,rgb(198, 20, 252) 5% ,rgba(92, 216, 247, 0.904)) 100%; 
+}
+.number{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.text{
+    font-size: 1.3rem;
+    color: silver;
+    font-weight: bold;
+}
+/* .btnBox{
+    display: flex;
+    gap: 10px;
+} */
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border:1px solid aliceblue;
+    background: transparent;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.spanTimer{
+    font-size: 1.5rem;
+    color: rgb(202, 28, 250);
+}
